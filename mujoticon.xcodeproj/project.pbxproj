@@ -19,8 +19,10 @@
 		5996B8581809167500E6D5E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5996B8571809167500E6D5E8 /* XCTest.framework */; };
 		5996B8591809167500E6D5E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5996B8381809167500E6D5E8 /* Foundation.framework */; };
 		5996B85A1809167500E6D5E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5996B83C1809167500E6D5E8 /* UIKit.framework */; };
-		5996B8621809167500E6D5E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5996B8601809167500E6D5E8 /* InfoPlist.strings */; };
-		5996B8641809167500E6D5E8 /* mujoticonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996B8631809167500E6D5E8 /* mujoticonTests.m */; };
+		5996B86F1809187E00E6D5E8 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996B86D1809187E00E6D5E8 /* CustomTableViewCell.m */; };
+		5996B8721809225000E6D5E8 /* AuthorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996B8701809225000E6D5E8 /* AuthorView.m */; };
+		5996B87418092BCD00E6D5E8 /* author_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5996B87318092BCD00E6D5E8 /* author_icon.png */; };
+		5996B8771809309D00E6D5E8 /* AuthorStampView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996B8751809309D00E6D5E8 /* AuthorStampView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +52,13 @@
 		5996B8501809167500E6D5E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5996B8561809167500E6D5E8 /* mujoticonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mujoticonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5996B8571809167500E6D5E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5996B85F1809167500E6D5E8 /* mujoticonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mujoticonTests-Info.plist"; sourceTree = "<group>"; };
-		5996B8611809167500E6D5E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5996B8631809167500E6D5E8 /* mujoticonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mujoticonTests.m; sourceTree = "<group>"; };
+		5996B86D1809187E00E6D5E8 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		5996B86E1809187E00E6D5E8 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		5996B8701809225000E6D5E8 /* AuthorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorView.m; sourceTree = "<group>"; };
+		5996B8711809225000E6D5E8 /* AuthorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorView.h; sourceTree = "<group>"; };
+		5996B87318092BCD00E6D5E8 /* author_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = author_icon.png; sourceTree = "<group>"; };
+		5996B8751809309D00E6D5E8 /* AuthorStampView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorStampView.m; sourceTree = "<group>"; };
+		5996B8761809309D00E6D5E8 /* AuthorStampView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorStampView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				5996B83E1809167500E6D5E8 /* mujoticon */,
-				5996B85D1809167500E6D5E8 /* mujoticonTests */,
 				5996B8371809167500E6D5E8 /* Frameworks */,
 				5996B8361809167500E6D5E8 /* Products */,
 			);
@@ -112,6 +117,12 @@
 		5996B83E1809167500E6D5E8 /* mujoticon */ = {
 			isa = PBXGroup;
 			children = (
+				5996B8751809309D00E6D5E8 /* AuthorStampView.m */,
+				5996B8761809309D00E6D5E8 /* AuthorStampView.h */,
+				5996B8701809225000E6D5E8 /* AuthorView.m */,
+				5996B8711809225000E6D5E8 /* AuthorView.h */,
+				5996B86D1809187E00E6D5E8 /* CustomTableViewCell.m */,
+				5996B86E1809187E00E6D5E8 /* CustomTableViewCell.h */,
 				5996B8471809167500E6D5E8 /* AppDelegate.h */,
 				5996B8481809167500E6D5E8 /* AppDelegate.m */,
 				5996B84A1809167500E6D5E8 /* Main.storyboard */,
@@ -126,28 +137,11 @@
 		5996B83F1809167500E6D5E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5996B87318092BCD00E6D5E8 /* author_icon.png */,
 				5996B8401809167500E6D5E8 /* mujoticon-Info.plist */,
 				5996B8411809167500E6D5E8 /* InfoPlist.strings */,
 				5996B8441809167500E6D5E8 /* main.m */,
 				5996B8461809167500E6D5E8 /* mujoticon-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5996B85D1809167500E6D5E8 /* mujoticonTests */ = {
-			isa = PBXGroup;
-			children = (
-				5996B8631809167500E6D5E8 /* mujoticonTests.m */,
-				5996B85E1809167500E6D5E8 /* Supporting Files */,
-			);
-			path = mujoticonTests;
-			sourceTree = "<group>";
-		};
-		5996B85E1809167500E6D5E8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5996B85F1809167500E6D5E8 /* mujoticonTests-Info.plist */,
-				5996B8601809167500E6D5E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5996B8511809167500E6D5E8 /* Images.xcassets in Resources */,
+				5996B87418092BCD00E6D5E8 /* author_icon.png in Resources */,
 				5996B8431809167500E6D5E8 /* InfoPlist.strings in Resources */,
 				5996B84C1809167500E6D5E8 /* Main.storyboard in Resources */,
 			);
@@ -238,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5996B8621809167500E6D5E8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5996B8721809225000E6D5E8 /* AuthorView.m in Sources */,
+				5996B8771809309D00E6D5E8 /* AuthorStampView.m in Sources */,
 				5996B84F1809167500E6D5E8 /* ViewController.m in Sources */,
 				5996B8491809167500E6D5E8 /* AppDelegate.m in Sources */,
+				5996B86F1809187E00E6D5E8 /* CustomTableViewCell.m in Sources */,
 				5996B8451809167500E6D5E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5996B8641809167500E6D5E8 /* mujoticonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +284,6 @@
 				5996B84B1809167500E6D5E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5996B8601809167500E6D5E8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5996B8611809167500E6D5E8 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
